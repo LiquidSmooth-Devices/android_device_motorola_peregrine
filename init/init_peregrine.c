@@ -68,7 +68,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.description", "peregrine_retus-user 4.4.4 KXB21.14-L1.56 56 release-keys");
         property_set("ro.build.fingerprint", "motorola/peregrine_retus/peregrine:4.4.4/KXB21.14-L1.56/56:user/release-keys");
         property_set("ro.mot.build.customerid", "retus");
-        property_set("persist.radio.multisim.config", "");
+        //property_set("persist.radio.multisim.config", "");
 
     } else if (ISMATCH(radio, "0x3")) {
         /* xt1039 */
@@ -80,7 +80,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.description", "peregrine_retbr-user 4.4.3 KXB21.14-L1.23-4 5 release-keys");
         property_set("ro.build.fingerprint", "motorola/peregrine_retbr/peregrine:4.4.3/KXB21.14-L1.23-4/5:user/release-keys");
         property_set("ro.mot.build.customerid", "retbr");
-        property_set("persist.radio.multisim.config", "");
+        //property_set("persist.radio.multisim.config", "");
 
     } else if (ISMATCH(radio, "0x5")) {
         /*xt1042 */
@@ -91,7 +91,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.product.display", "Moto G");
         property_set("ro.build.description", "peregrine_usc-user 4.4.4 KXB21.14-L1.41 41 release-keys");
         property_set("ro.build.fingerprint", "motorola/peregrine_usc/peregrine:4.4.4/KXB21.14-L1.41/41:user/release-keys");
-        property_set("persist.radio.multisim.config", "");
+        //property_set("persist.radio.multisim.config", "");
         property_set("ro.mot.build.customerid ","usc");
         property_set("ro.com.android.dataroaming","true");
         property_set("ro.mot.ignore_csim_appid","true");
@@ -118,7 +118,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.description", "peregrine_reteu-user 4.4.4 KXB21.14-L1.46 42 release-keys");
         property_set("ro.build.fingerprint", "motorola/peregrine_reteu/peregrine:4.4.4/KXB21.14-L1.46/42:user/release-keys");
         property_set("ro.mot.build.customerid", "reteuall");
-        property_set("persist.radio.multisim.config", "");
+        //property_set("persist.radio.multisim.config", "");
     }
 
     property_get("ro.product.device", device);
